@@ -129,5 +129,8 @@
         font-weight: 400;
         text-align: center;
     }
+    .seg {
+        margin-top: -2px;
+    }
 }
 
