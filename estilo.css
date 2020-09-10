@@ -3,7 +3,10 @@
 @media (max-width: 1024px) {
     body {font-family: Arial, Helvetica, sans-serif}
     *{margin: 0;box-sizing: border-box}
-    main {margin: 10px}
+    main {margin: 10px; 
+        background: #f9f9f9; 
+        padding: 10px;
+    }
     h3{
         font-weight: normal;
         text-align: center;
