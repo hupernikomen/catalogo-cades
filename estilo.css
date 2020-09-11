@@ -30,7 +30,7 @@
         box-shadow: 0 1px 5px #bbb;
     }
     hr{
-        height: 8px; 
+        height: 6px; 
         border: 0; 
         background: linear-gradient(to right, purple, darkred, red, orange, gold, pink, deeppink)
     }
@@ -134,6 +134,32 @@
     }
     .seg {
         margin-top: -2px;
+    }
+    .detalhesPreco{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        transform: rotate(-5deg);
+    }
+    .vista{
+        background: red;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .prazo{
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        transform: translate(-5%);
+    }
+    .prazo::after {
+        content: "à prazo";
+        font-style: italic;
+    }
+    .vista::after {
+        content: "à vista";
+        font-style: italic;
     }
 }
 
