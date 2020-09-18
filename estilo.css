@@ -22,7 +22,7 @@
         font-family: Arial, Helvetica, sans-serif;
         color: #222;
     }
-    *{
+    * {
         margin: 0;
         box-sizing: border-box;
     }
@@ -103,14 +103,13 @@
         display: flex;
         flex-wrap: wrap;
     }
-
     .cor {
         width: 35px;
         height: 35px;
         margin-right: 3px;
         border: 1px solid #ccc;
     }
-    img{
+    img {
         width: 100%;
         margin-top: -2px;
     }
