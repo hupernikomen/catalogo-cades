@@ -1,7 +1,23 @@
-@media (min-width: 1025px){main {display: none}}
+@media (min-width: 1025px){
+    main {
+        display: none;
+    }
+    .off {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
 
 @media (max-width: 1024px) {
 
+    .off {
+        display: none
+    }
     body {
         font-family: Arial, Helvetica, sans-serif;
         color: #222;
@@ -52,8 +68,7 @@
     }
     .descricao, 
     .precoPrazo, 
-    .detalhes p,
-    .encontre span {
+    .detalhes p{
         font-size: 14px;
         font-weight: 300;
         text-align: left;
@@ -124,6 +139,12 @@
     .encontre {
         text-align: center;
         margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .encontre span {
+        font-weight: 300;
+        font-size: 14px;
     }
     .wp {
         display: flex;
@@ -144,5 +165,6 @@
         border-radius: 4px;
         box-shadow: 0px 1px 3px 3px #ddd;
     }
+
 }
 
