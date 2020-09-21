@@ -23,9 +23,10 @@
         color: #222;
     }
     * {
+        /* box-shadow: 0 0 1pt; */
         margin: 0;
         box-sizing: border-box;
-    }
+    }   
     main, body {
         background: #f7f7f7;
     }
@@ -50,20 +51,23 @@
         font-weight: 500;
         margin-bottom: 20px;
     }
-    .logo {
-        text-align: center;
+    .topo {
         position: sticky;
         z-index: 9999;
         height: 60px;
-        line-height: 60px;
-        font-size: 24px;
         background: #fff;
-        top: -1px;
+        top: 0;
+    }
+    .logo {
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 24px;
         box-shadow: 1px 1px 3px 5px #22222250;
     }
     hr {
         height: 4px; 
-        border: none;
+        border: 0;
         background: linear-gradient(to right, rgb(110, 21, 110), darkred, red, orange, gold, pink, #eb122e)
     }
     .descricao, 
@@ -84,6 +88,7 @@
         color: #fff;
         padding: 5px 10px;
         border-radius: 4px;
+        box-shadow: 0px 1px 2px 2px #ddd;
     }
     .precoPrazo {
         margin-left: 5px;
