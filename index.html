@@ -5,13 +5,9 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178417193-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <script src="analitcs.js"></script>
 
-        gtag('config', 'UA-178417193-1');
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
@@ -31,10 +27,9 @@
         <h3>Catálogo Atacado</h3>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Polo Masculina Listras</h2>
-                <p class="descricao">Camisas em malha Fio 30 confort disponivel nos tamanhos P, M, G e GG</p>
+                <p class="descricao">Malha Fio 30 confort disponivel nos tamanhos P, M, G e GG</p>
 
                 <span class="precoVista">R$ 39,99</span>
                 <span class="precoPrazo">R$ 45,99</span>
@@ -45,7 +40,7 @@
                 <img src="imgs/11.webp">
             </div>
 
-            <div class="item">
+            <div class="item" id="1">
                 <span class="cod">COD. 4006.6</span>
                 <img src="imgs/13.webp">
                 <img src="imgs/14.webp">
@@ -61,14 +56,12 @@
                 <span class="cod">COD. 4006.2</span>
                 <img src="imgs/17.webp">
             </div>
-
         </section>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Polo Masculina Detalhe</h2>
-                <p class="descricao">Camisas em malha 100% algodão disponivel nos tamanhos P, M, G e GG</p>
+                <p class="descricao">Malha 100% algodão disponivel nos tamanhos P, M, G e GG</p>
 
                 <span class="precoVista">R$ 39,99</span>
                 <span class="precoPrazo">R$ 45,99</span>
@@ -100,7 +93,6 @@
                 <span class="cod new">COD. 4007.5</span>
                 <img src="imgs/9.webp">
             </div>
-
         </section>
 
         <div class="wp">
@@ -111,10 +103,9 @@
         </div>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Polo Masculina Lisa</h2>
-                <p class="descricao">Camisas em malha piquê disponivel nos tamanhos P, M, G e GG</p>
+                <p class="descricao">Malha piquê disponivel nos tamanhos P, M, G e GG</p>
 
                 <span class="precoVista">R$ 29,99</span>
                 <span class="precoPrazo">R$ 35,99</span>
@@ -125,22 +116,32 @@
                 <img src="imgs/19.webp">
             </div>
 
-            <div class="item">
-                <span class="cod">COD. 4005</span>
-                <img src="imgs/21.webp">
-            </div>
+            <!-- <div class="item"> -->
+                <!-- <span class="cod">COD. 4005</span> -->
+                <!-- <img src="imgs/21.webp"> -->
+            <!-- </div> -->
 
             <div class="item">
                 <span class="cod">COD. 4005</span>
                 <img src="imgs/22.webp">
             </div>
 
+            <div class="detalhes">
+                <p>Outras cores disponiveis nesse modelo:</p>
+                <div>
+                    <div class="cor" style="background: #3a6762"></div>
+                    <div class="cor" style="background: #cf0c34"></div>
+                    <div class="cor" style="background: #c44630"></div>
+                    <div class="cor" style="background: #4e535c"></div>
+      
+                </div>
+            </div>
         </section>
 
         <section>
             <div class="detalhes">
                 <h2 class="tituloSection">Camisas Malha Estampada</h2>
-                <p class="descricao">Camisas em malha 100% algodão nos tamanhos P, M, G e GG</p>
+                <p class="descricao">Malha 100% algodão nos tamanhos P, M, G e GG</p>
 
                 <span class="precoVista">R$ 25,99</span>
                 <span class="precoPrazo">R$ 29,99</span>
@@ -166,15 +167,14 @@
                 <img src="imgs/40.webp">
                 <img src="imgs/41.webp">
             </div>
-
         </section>
 
         <section>
             <div class="detalhes">
                 <h2 class="tituloSection">Camisas Malha Básica</h2>
-                <p class="descricao">Camisas em malha 100% algodão nos tamanhos P, M, G e GG</p>
+                <p class="descricao">Malha 100% algodão nos tamanhos P, M, G e GG</p>
 
-                <span class="precoVista">R$ 17,99</span>
+                <span class="precoVista">R$ 19,99</span>
                 <span class="precoPrazo">R$ 22,99</span>
             </div>
 
@@ -183,16 +183,28 @@
                 <img src="imgs/46.webp">
                 <img src="imgs/47.webp">
             </div>
+            <div class="detalhes">
+                <p>Outras cores disponiveis nesse modelo:</p>
+                <div>
+                    <div class="cor" style="background: #496783"></div>
+                    <div class="cor" style="background: #fff"></div>
+                    <div class="cor" style="background: #222"></div>
+                    <div class="cor" style="background: #721c29"></div>
+                    <div class="cor" style="background: #b13250"></div>
+                    <div class="cor" style="background: #172f53"></div>
+                    <div class="cor" style="background: #c6c7c9"></div>
+                </div>
+            </div>
 
         </section>
 
         <section>
             <div class="detalhes">
-                <h2 class="tituloSection">Camisas Machão</h2>
-                <p class="descricao">Camisas em malha 100% algodão nos tamanhos P, M, G e GG</p>
+                <h2 class="tituloSection">Camisas Regata</h2>
+                <p class="descricao">Malha 100% algodão nos tamanhos P, M, G e GG</p>
 
-                <span class="precoVista">R$ 17,99</span>
-                <span class="precoPrazo">R$ 22,99</span>
+                <span class="precoVista">R$ 22,99</span>
+                <span class="precoPrazo">R$ 26,99</span>
             </div>
 
             <div class="item">
@@ -206,14 +218,26 @@
                 <img src="imgs/44.webp">
                 <img src="imgs/45.webp">
             </div>
-
+            <div class="detalhes">
+                <p>Outras cores disponiveis nesse modelo:</p>
+                <div>
+                    <div class="cor" style="background: #1a3a8d"></div>
+                    <div class="cor" style="background: #fdc64e"></div>
+                    <div class="cor" style="background: #222"></div>
+                    <div class="cor" style="background: #ff0000"></div>
+                    <div class="cor" style="background: #663866"></div>
+                    <div class="cor" style="background: #fff"></div>
+                    <div class="cor" style="background: #a81b68"></div>
+                    <div class="cor" style="background: #05584e"></div>
+                    <div class="cor" style="background: #df3535"></div>
+                </div>
+            </div>
         </section>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Blusas Babylook Lisas</h2>
-                <p class="descricao">Blusas em malha viscolycra nos tamanhos PP, P, M, G e GG</p>
+                <p class="descricao">Malha viscolycra nos tamanhos PP, P, M, G e GG</p>
 
                 <span class="precoVista">R$ 17,99</span>
                 <span class="precoPrazo">R$ 19,99</span>
@@ -229,18 +253,30 @@
                 <img src="imgs/25.webp">
             </div>
 
-            <div class="item">
-                <span class="cod">COD. 1772</span>
-                <img src="imgs/26.webp">
+            <!-- <div class="item"> -->
+                <!-- <span class="cod">COD. 1772</span> -->
+                <!-- <img src="imgs/26.webp"> -->
+            <!-- </div> -->
+            <div class="detalhes">
+                <p>Outras cores disponiveis nesse modelo:</p>
+                <div>
+                    <div class="cor" style="background: #1a3a8d"></div>
+                    <div class="cor" style="background: #fdc64e"></div>
+                    <div class="cor" style="background: #222"></div>
+                    <div class="cor" style="background: #ff0000"></div>
+                    <div class="cor" style="background: #663866"></div>
+                    <div class="cor" style="background: #fff"></div>
+                    <div class="cor" style="background: #a81b68"></div>
+                    <div class="cor" style="background: #05584e"></div>
+                    <div class="cor" style="background: #df3535"></div>
+                </div>
             </div>
-
         </section>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Blusas Alça Larga</h2>
-                <p class="descricao">Blusas em malha viscolycra nos tamanhos PP, P, M, G e GG</p>
+                <p class="descricao">Malha viscolycra nos tamanhos PP, P, M, G e GG</p>
 
                 <span class="precoVista">R$ 17,99</span>
                 <span class="precoPrazo">R$ 19,99</span>
@@ -279,33 +315,31 @@
                     <div class="cor" style="background: #e1443d"></div>
                 </div>
             </div>
-
         </section>
 
         <section>
-
             <div class="detalhes">
                 <h2 class="tituloSection">Blusas Alça Fina</h2>
-                <p class="descricao">Blusas em malha viscolycra nos tamanhos PP, P, M, G e GG</p>
+                <p class="descricao">Malha viscolycra nos tamanhos PP, P, M, G e GG</p>
 
                 <span class="precoVista">R$ 17,99</span>
                 <span class="precoPrazo">R$ 19,99</span>
             </div>
 
-            <div class="item">
+            <!-- <div class="item">
                 <span class="cod new">COD. 1781</span>
                 <img src="imgs/28.webp">
-            </div>
+            </div> -->
 
             <div class="item">
                 <span class="cod new">COD. 1781</span>
                 <img src="imgs/30.webp">
             </div>
-
+<!-- 
             <div class="item">
                 <span class="cod new">COD. 1781</span>
                 <img src="imgs/31.webp">
-            </div>
+            </div> -->
 
             <div class="item">
                 <span class="cod new">COD. 1781</span>
@@ -325,7 +359,6 @@
                     <div class="cor" style="background: #1197a7"></div>
                 </div>
             </div>
-
         </section>
 
         <div class="encontre">
@@ -341,6 +374,8 @@
         Este catálogo só pode ser vizualizado em dispositivos moveis<br>
         (Smartphones ou Tablets)
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
