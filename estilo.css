@@ -27,7 +27,7 @@
         margin: 0;
         box-sizing: border-box;
     } 
-    main {
+    main, body {
         background: #f7f7f7;
     }
     section {
