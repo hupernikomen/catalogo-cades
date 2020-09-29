@@ -30,27 +30,6 @@
     main, body {
         background: #f7f7f7;
     }
-    section {
-        margin: 40px 20px;
-        padding: 1px;
-        border-radius: 2px;
-        box-shadow: 0px 1px 3px 1px #ddd;
-        background: #fff;
-    }
-    .detalhes {
-        padding: 25px 20px;
-    }
-    h3 {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 14px;
-        font-weight: 300;
-    }
-    .tituloSection {
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 20px;
-    }
     .topo {
         position: sticky;
         z-index: 9999;
@@ -70,17 +49,37 @@
         border: 0;
         background: linear-gradient(to right, rgb(110, 21, 110), darkred, red, orange, gold, pink, #eb122e)
     }
+    .subtitulo {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    section {
+        margin: 40px 20px;
+        padding: 1px;
+        border-radius: 2px;
+        box-shadow: 0px 1px 3px 1px #ddd;
+        background: #fff;
+    }
+    .detalhes {
+        padding: 25px 20px;
+    }
+    .tituloSection {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
     .descricao, 
     .precoPrazo, 
     .detalhes p{
         font-size: 14px;
         font-weight: 300;
         text-align: left;
-        margin: 5px 0 10px;
         font-style: italic;
     }
     .descricao {
-        margin-top: -15px !important;
+        margin: 5px 0 20px;
     }
     .precoVista {
         background: linear-gradient(to right, rgb(110, 21, 110), #eb122e);
@@ -102,24 +101,6 @@
     .item {
         position: relative;
         margin-top: 15px;
-    }
-    .detalhes div {
-        margin-top: 5px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .cor {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        width: 35px;
-        height: 35px;
-        margin-right: 3px;
-        border: 1px solid #ccc;
-    }
-    .bco {
-        color: #222;
     }
     img {
         width: 100%;
@@ -146,6 +127,34 @@
         border-radius: 4px;
         right: 0;
         top: 25px;
+    }
+    .cores {
+        padding: 20px;
+    }
+    .cores div {
+        margin: 1px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cores p {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        margin: 5px 0 10px;
+        font-style: italic;
+    }
+    .cor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        width: 45px;
+        height: 45px;
+        margin-right: 3px;
+        border: 1px solid #ccc;
+    }
+    .bco {
+        color: #222;
     }
     .encontre {
         text-align: center;
