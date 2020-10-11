@@ -31,13 +31,11 @@ catalogo.sessao.map((item) => {
     txt += "<span class='precoPrazo'>" + item.aprazo + "</span>";
     txt += "</div>";
 
-    console.log(item.imgs)
-
     item.imgs.map((img) => {
         var thumb = "<div class='item'>";
 
         thumb += "<img src=" + img.ft + "/>";
-        thumb += "<span class='cod'>" + img.cod + "<span>";
+        thumb += "<span class='cod'>" + img.cod + "</span>";
         thumb += "</div>";
         $('section').append(thumb)
     })
